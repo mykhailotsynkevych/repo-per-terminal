@@ -30,9 +30,13 @@ https://github.com/VovaMelnyk/GitTutorial
 21. git log - показує історію комітів
 22. cd gitTutorial - переходимо в папку gitTutorial
 
+
 23. git reset - відмінити попередню операцію
 24. git commit -am "comment" - означає пункт 5+6 за раз
 25. git push -u origin my_branch = git branch --set-usptream - однакові команди щоб перший раз опублікувати гілку на віддаленний репозиторій
+
+Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)
+
 
 ## W&S:
 1. cd - див п.22
