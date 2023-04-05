@@ -25,6 +25,7 @@ https://github.com/VovaMelnyk/GitTutorial
 16. git merge "banchName" - зливаємо гілку з назвою "branchName" в поточну гілку
 17. git merge --abort - відміняємо зливання гілок
 18. git branch -d branchName - видаляє гілку локально з проекту
+    git push origin --delete nameBranch - видаляє гілку віддалено з проекту 
 19. git push origin --delete name - видаляє гілку з сайту github
 20. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
 21. git log - показує історію комітів
@@ -35,6 +36,12 @@ https://github.com/VovaMelnyk/GitTutorial
 23. git reset - відмінити попередню операцію
 24. git commit -am "comment" - означає пункт 5+6 за раз
 25. git push -u origin my_branch = git push --set-usptream origin header - однакові команди щоб перший раз опублікувати гілку на віддаленний репозиторій
+
+Щоб зайти/глянути чужу гілку:
+1. git pull - стягуєм оновлення
+2. git checkaut "nameBranch" - вхід в потрібну гілку
+
+Щоб отримати оновлення в конкретній гілці потрібно саме в ній git pull виконати
 
 
 
