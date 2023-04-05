@@ -26,12 +26,12 @@ https://github.com/VovaMelnyk/GitTutorial
 17. git merge --abort - відміняємо зливання гілок
 18. git branch -d branchName - видаляє гілку локально з проекту
 19. git push origin --delete nameBranch - видаляє гілку віддалено з проекту 
-20. git push origin --delete name - видаляє гілку з сайту github
+20. git push origin --delete nameBranch - видаляє гілку з сайту github
 21. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
 22. git log - показує історію комітів
-23. cd gitTutorial - переходимо в папку gitTutorial
+23. cd gitTutorial - переходимо в папку gitTutorial (cd - chenge directory)
 
-Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)
+Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №21 і №22)
 
 23. git reset - відмінити попередню операцію
 24. git commit -am "comment" - означає пункт 5+6 за раз
@@ -41,12 +41,16 @@ https://github.com/VovaMelnyk/GitTutorial
 1. git pull - стягуєм оновлення
 2. git checkaut "nameBranch" - вхід в потрібну гілку
 
+Щоб вибрати раніші версії коду:
+1. git log - показує історію комітів
+2. git checkout commitName - війти в версію ранішого коміта
+
 Щоб отримати оновлення в конкретній гілці потрібно саме в ній git pull виконати
 
 
 
 ## W&S:
-1. cd - див п.22
+1. cd - див п.23
 2. cat
 3. vim
 4. ls-lisah
