@@ -34,7 +34,7 @@ https://github.com/VovaMelnyk/GitTutorial
 
 23. git reset - відмінити попередню операцію
 24. git commit -am "comment" - означає пункт 5+6 за раз
-25. git push -u origin my_branch = git branch --set-usptream - однакові команди щоб перший раз опублікувати гілку на віддаленний репозиторій
+25. git push -u origin my_branch = git push --set-usptream origin header - однакові команди щоб перший раз опублікувати гілку на віддаленний репозиторій
 
 
 
