@@ -1,5 +1,10 @@
 # GitTutorial
 
+## YouTube:
+https://www.youtube.com/watch?v=wFY5HVuQBgw&t=3s
+
+https://github.com/VovaMelnyk/GitTutorial
+
 ## Список корисних команд для роботи з git
 
 1. git clone - копіює репозиторій(папку з файлами) на компютер
@@ -25,11 +30,6 @@
 21. git log - показує історію комітів
 22. cd gitTutorial - переходимо в папку gitTutorial
 
-23. git reset - відмінити попередню операцію
-24. git commit -am  "comment" - означає пункт 5+6 за раз
-25. git push -u origin my_branch = git branch --set-usptream - однакові команди щоб перший раз опублікувати гілку на віддаленний репозиторій
-
-
 ## W&S:
 1. cd - див п.22
 2. cat
@@ -37,4 +37,3 @@
 4. ls-lisah
 
 
-Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)
