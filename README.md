@@ -25,11 +25,11 @@ https://github.com/VovaMelnyk/GitTutorial
 16. git merge "banchName" - зливаємо гілку з назвою "branchName" в поточну гілку
 17. git merge --abort - відміняємо зливання гілок
 18. git branch -d branchName - видаляє гілку локально з проекту
-    git push origin --delete nameBranch - видаляє гілку віддалено з проекту 
-19. git push origin --delete name - видаляє гілку з сайту github
-20. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
-21. git log - показує історію комітів
-22. cd gitTutorial - переходимо в папку gitTutorial
+19. git push origin --delete nameBranch - видаляє гілку віддалено з проекту 
+20. git push origin --delete name - видаляє гілку з сайту github
+21. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
+22. git log - показує історію комітів
+23. cd gitTutorial - переходимо в папку gitTutorial
 
 Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)
 
