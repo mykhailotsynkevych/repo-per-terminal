@@ -48,6 +48,11 @@ https://github.com/VovaMelnyk/GitTutorial
 Щоб отримати оновлення в конкретній гілці потрібно саме в ній git pull виконати
 
 
+Щоб склонувати собі гілку с чужого репозиторію:
+1. git checkout -b "branchName" - створюємо гілку з назвою "branchName" і переходимо на неї
+2. git clone repoLink.git -b nameBranche
+
+
 
 ## W&S:
 0. mkdir - расшифровывается как "Make directory", что переводится как "создать папку".
